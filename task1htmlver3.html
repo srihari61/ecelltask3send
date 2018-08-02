@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anirudh's Photographye</title>
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+.grid-container {
+  display: grid;
+  /* grid-template-areas:
+    '. . . .' '. . . .' '. . . .' '. . . .' '. . . .' '. . . .' '. . . .' '. . . .' '. . . .'; */
+  grid-template-columns:
+  'auto auto'; 
+  grid-template-rows:
+  'auto auto auto';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+ justify-content:center;  
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+#item1 { grid-column: 1/2; grid-row: 1/2 ;} 
+#item2 { grid-column: 2/3; grid-row: 1/2 }
+#item3 { grid-column: 1/2; grid-row: 2/3 }
+#item4 { grid-column: 2/3; grid-row: 2/3 }
+#item5 { grid-column: 1/2; grid-row: 3/4 }
+#item6 { grid-column: 2/3; grid-row: 3/4 }
+>
+</style>
+</head>
+<body style="background-image:7ph.jpg;">
+<h2 style="position:relative;left:500px;font-family:Comic Sans MS"><i>Welcome to Anirudh's Photography</i></h2> 
+<h2 style="position:relative;left:500px;font-family:Comic Sans MS"><i><a href="informingEvents.php" >To Check New Events Click Here!</a></i></h2>
+<div class="grid-container">
+  <div id="item1"><a href="contactUs.php"><img src="1ph.jpg" alt="flower garden">Flower Garden</a></div>
+  <div id="item2"><a href="contactUs.php"><img src="2ph.jpg" alt="hanging bridge">Hanging Bridge</a></div>
+  <div id="item3"><a href="contactUs.php"><img src="3ph.jpg" alt="seashore">Sea Shore</a></div>  
+  <div id="item4"><a href="contactUs.php"><img src="4ph.jpg" alt="mountain">Mountain</a></div>
+  <div id="item5"><a href="contactUs.php"><img src="5ph.jpg" alt="waterfall">Waterfall</a></div>
+  <div id="item6"><a href="contactUs.php"><img src="6ph.jpg" alt="seashore">Sea Shore</a></div>
+</div>
+<div id="descrpt" style="border:5px solid black; background-color:yellow;font-size:20px">Hello viewer. I am Anirudh from BTech, NIT Trichy. I am a passionate photographer. I have participated in many state level competitions. Please drop a message to know more about my works in the email below.</div>
+<footer style="text-align:center;"><b>Contact me</b><br> Email:aravindclicks@gmail.com <br><a href="https://facebook.com"><img src="picture.png" width="20px" height="20px"></a>
+</footer>
+</body>
+</html>
